@@ -1,0 +1,100 @@
+/***** BASE STYLES *****/
+
+body {
+  background-color: #E8E8E8;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+#vision-board {
+  background-image: url('../img/background.png');
+  background-size: cover;
+  font-weight: 700;
+  height: 850px;
+  margin: 50px auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+/***** BLOCK SIZING *****/
+
+.block {
+  box-sizing: border-box;
+  float: left;
+  width: 400px;
+}
+
+.large {
+  height: 430px;
+  padding: 70px 40px;
+}
+
+.small {
+  height: 210px;
+  padding: 20px 40px;
+}
+
+.top-padding {
+  padding-top: 47px;
+}
+
+/***** BLOCK ALIGN *****/
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+/***** BLOCK COLOR *****/
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.grey {
+  background-color: #3B3B3B;
+  color: #FFFFFF;
+}
+
+/***** TEXT STYLE *****/
+
+h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+h1 span {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 38px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h4 span {
+  background-color: #FFF44F;
+  font-size: 18px;
+  margin: 0;
+  padding: 5px 15px;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
